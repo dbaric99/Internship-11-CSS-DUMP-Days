@@ -1,8 +1,21 @@
-@import './fly-talks.css';
-@import './gallery.css';
-@import './header-hero.css';
-@import './jobs.css';
-@import './logos.css';
-@import './navigation.css';
-@import './speakers.css';
-@import './timetable.css';
+/* definitions */
+@import "./definitions/sizes.css";
+@import "./definitions/palette.css";
+
+/* webpage sections */
+@import "./sections/navigation.css";
+@import "./sections/header-hero.css";
+@import "./sections/fly-talks.css";
+@import "./sections/how-to-find-us.css";
+@import "./sections/follow-us-online.css";
+@import "./sections/timetable.css";
+@import "./sections/speakers.css";
+@import "./sections/quote_digital-generation.css";
+@import "./sections/sponsors.css";
+@import "./sections/jobs.css";
+@import "./sections/application.css";
+@import "./sections/quote_luka-abrus.css";
+@import "./sections/gallery.css";
+@import "./sections/faq.css";
+@import "./sections/contact-form.css";
+@import "./sections/footer.css";

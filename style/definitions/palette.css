@@ -1,0 +1,11 @@
+:root {
+  --black: black;
+
+  /* Use together */
+  --gray: rgba(245, 245, 247, 0.05);
+  --gray-effect: backdrop-filter: blur(2px);
+
+  --white: #f5f5f7;
+  --accent-linear: linear-gradient(44.61deg, #00B5C1 9.43%, #4336B9 41.88%, #FA4343 106.56%);
+  --accent-conic: conic-gradient(from 90deg at 73.72% 50%, #C75593 -157.26deg, #6A4293 89.27deg, #C75593 202.74deg, #6A4293 449.27deg);
+}
