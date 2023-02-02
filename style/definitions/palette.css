@@ -1,22 +1,59 @@
 :root {
   --black: black;
-
-  /* Use together */
-  --frosted-effect: #f5f5f70d;
-  --frosted-blur-effect: blur(2px);
-
   --white: #f5f5f7;
-  --accent-linear: linear-gradient(
+
+  --accent-main: linear-gradient(
     44.61deg,
     #00b5c1 9.43%,
     #4336b9 41.88%,
     #fa4343 106.56%
   );
-  --accent-conic: conic-gradient(
+  --accent-4800: conic-gradient(
     from 90deg at 73.72% 50%,
     #c75593 -157.26deg,
     #6a4293 89.27deg,
     #c75593 202.74deg,
     #6a4293 449.27deg
+  );
+  --accent-60: conic-gradient(
+    from 114.22deg at 29.17% 50%,
+    #694696 -23.56deg,
+    #2361a6 107.58deg,
+    #c75593 232.77deg,
+    #694696 336.44deg,
+    #2361a6 467.58deg
+  );
+  --accent-70: conic-gradient(
+    from 114.22deg at 29.17% 50%,
+    #694696 -40.41deg,
+    #2361a6 38.26deg,
+    #694696 319.59deg,
+    #2361a6 398.26deg
+  );
+  --accent-10: conic-gradient(
+    from 102.06deg at -7.1% 67.63%,
+    #c75593 -1.87deg,
+    #2361a6 281.68deg,
+    #694696 332.49deg,
+    #c75593 358.13deg,
+    #2361a6 641.68deg
+  );
+  --accent-7: conic-gradient(
+    from 82.14deg at 53.24% 50%,
+    #694696 -47.23deg,
+    #804b73 97.91deg,
+    #ab415c 150.01deg,
+    #c35493 216.76deg,
+    #694696 312.77deg,
+    #804b73 457.91deg
+  );
+  --accent-180: conic-gradient(
+    from 77.41deg at 62.39% 60.9%,
+    #694696 -38.75deg,
+    #c88f6f 117.45deg,
+    #ab415c 221.55deg,
+    #804b73 291.42deg,
+    #694696 321.25deg,
+    #c88f6f 477.45deg
   );
 }
