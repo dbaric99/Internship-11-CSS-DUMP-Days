@@ -2,8 +2,8 @@
   --black: black;
 
   /* Use together */
-  --gray: rgba(245, 245, 247, 0.05);
-  --gray-effect: backdrop-filter: blur(2px);
+  --frosted-effect: #f5f5f70d;
+  --frosted-blur-effect: backdrop-filter: blur(2px);
 
   --white: #f5f5f7;
   --accent-linear: linear-gradient(44.61deg, #00B5C1 9.43%, #4336B9 41.88%, #FA4343 106.56%);
