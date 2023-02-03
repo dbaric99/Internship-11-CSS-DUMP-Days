@@ -10,6 +10,10 @@ nav {
   max-width: var(--max-width-mobile);
 }
 
+nav > img {
+  z-index: 2;
+}
+
 .navigation-hamburger {
   display: block;
   position: relative;
@@ -71,7 +75,8 @@ nav {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  top: 80px;
+  padding-top: 80px;
+  top: 0;
   left: 0;
   padding-left: 24px;
   list-style-type: none;

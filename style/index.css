@@ -2,6 +2,7 @@
 @import "./definitions/sizes.css";
 @import "./definitions/palette.css";
 @import "./definitions/animations.css";
+@import "./definitions/buttons.css";
 
 /* utility classes */
 @import "./utility.css";
