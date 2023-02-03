@@ -1,3 +1,5 @@
 :root {
-  --transition-regular: all 256ms ease;
+  --transition-hover: color 256ms ease, background-color 256ms ease,
+    border-color 256ms ease, background-image 256ms ease,
+    border-image 256ms ease, color 256ms ease;
 }

@@ -10,7 +10,7 @@
   text-decoration: none;
   color: var(--white);
   font-weight: 800;
-  transition: var(--transition-regular);
+  transition: var(--transition-hover);
   border: 1px solid;
   border-image: var(--accent-main) 1;
   text-transform: uppercase;

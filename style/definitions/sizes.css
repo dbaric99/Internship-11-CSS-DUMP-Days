@@ -1,11 +1,12 @@
+/* WARN: var() does not work inside media queries! */
 :root {
   /* Width definitions */
   /* Limit maximum width on large devices */
   --max-width-desktop: 1440px;
 
   /* Desktop cutoff width */
-  --min-width-desktop: 1000px;
+  --max-width-tablet: 768px;
 
   /* Limit maximum width on mobile and tablet devices */
-  --max-width-mobile: 800px;
+  --max-width-mobile: 425px;
 }
