@@ -13,6 +13,7 @@
   transition: var(--transition-regular);
   border: 1px solid;
   border-image: var(--accent-main) 1;
+  text-transform: uppercase;
 }
 
 .button:hover {
