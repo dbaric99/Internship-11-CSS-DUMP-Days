@@ -11,6 +11,8 @@
   color: var(--white);
   font-weight: 800;
   transition: var(--transition-regular);
+  border: 1px solid;
+  border-image: var(--accent-main) 1;
 }
 
 .button:hover {
@@ -18,9 +20,4 @@
   border-image: unset;
   border-color: var(--white);
   color: var(--black);
-}
-
-.--outline {
-  border: 1px solid;
-  border-image: var(--accent-main) 1;
 }
