@@ -31,3 +31,38 @@
   position: absolute;
   left: 0;
 }
+
+.fly-talks-desktop-image {
+  display: none;
+}
+
+/* Dektop */
+@media screen and (min-width: 1024px) {
+  .fly-talks {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: var(--max-width-desktop);
+  }
+
+  .fly-talks-about {
+    width: 400px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fly-talks-images {
+    position: static;
+    display: block;
+    width: min-content;
+  }
+
+  .fly-talks-mobile-image {
+    display: none;
+  }
+
+  .fly-talks-desktop-image {
+    display: block;
+  }
+}

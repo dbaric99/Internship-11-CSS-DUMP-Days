@@ -3,10 +3,14 @@
   /* Width definitions */
   /* Limit maximum width on large devices */
   --max-width-desktop: 1440px;
-
-  /* Desktop cutoff width */
-  --max-width-tablet: 768px;
-
   /* Limit maximum width on mobile and tablet devices */
   --max-width-mobile: 425px;
+
+  /* 
+  for @media screen:
+  - phone: 375px
+  - tablet: 425px
+  - large tablet: 768px
+  - desktop: 1024px
+  */
 }
