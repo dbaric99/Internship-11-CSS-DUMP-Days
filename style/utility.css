@@ -14,3 +14,9 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+.mobile-margin {
+  width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
