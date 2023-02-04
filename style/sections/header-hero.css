@@ -1,0 +1,111 @@
+.header-hero {
+    margin-top: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 198px;
+}
+
+.header-hero__title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-hero__title {
+    font-size: 16px;
+    font-family: "FuseV2Display-Regular";
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.header-hero__subtitle {
+    font-size: 54px;
+    line-height: 68px;
+    font-family: "FuseV2Display-ExtraBold";
+    margin-bottom: 88px;
+}
+
+.header-hero__details-wrapper {
+    color: var(--white);
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+.header-hero__description {
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--white);
+    font-family: "FuseV2Display-Regular";
+    text-align: center;
+
+    margin-top: 408px;
+    margin-bottom: 272px;
+    max-width: 330px;
+}
+
+.header-hero__stats-wrapper {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+.stats__item {
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats__item__number {
+    font-family: "FuseV2Display-ExtraBold";
+    font-size: 54px;
+    line-height: 68px;
+}
+
+.stats__item__unit {
+    font-family: "FuseV2Display-Regular";
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .header-hero {
+        margin-top: 192px;
+    }
+    .header-hero__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .header-hero__subtitle {
+        font-size: 120px;
+        line-height: 130px;
+        height: 140px;
+    }
+    .header-hero__stats-wrapper {
+        flex-direction: row;
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .stats__item:not(:last-child) {
+        margin-right: 80px;
+    }
+    .stats__item:is(:first-child) {
+        margin-left: 208px;
+    }
+    .stats__item__number {
+        font-size: 120px;
+        line-height: 130px;
+    }
+}
+
+@media screen and (min-width: 2070px) {
+    .stats__item:is(:first-child) {
+        margin-left: 0px;
+    }
+    .header-hero__stats-wrapper {
+        justify-content: center;
+    }
+}
