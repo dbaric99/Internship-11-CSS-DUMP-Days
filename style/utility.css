@@ -14,9 +14,73 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+.accent-4800-clipped-text {
+  background-color: var(--white);
+  background-image: var(--accent-4800);
+  background-size: 100%;
+  background-repeat: repeat;
 
-.mobile-margin {
-  width: calc(100% - 48px);
-  margin-left: auto;
-  margin-right: auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.accent-60-clipped-text {
+  background-color: var(--white);
+  background-image: var(--accent-60);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.accent-70-clipped-text {
+  background-color: var(--white);
+  background-image: var(--accent-70);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.accent-10-clipped-text {
+  background-color: var(--white);
+  background-image: var(--accent-10);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.accent-7-clipped-text {
+  background-color: var(--white);
+  background-image: var(--accent-7);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.accent-180-clipped-text {
+  background-color: var(--white);
+  background-image: var(--accent-180);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.disable-overflow {
+  overflow-x: hidden;
 }
