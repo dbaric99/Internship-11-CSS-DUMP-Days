@@ -1,0 +1,18 @@
+.fly-talks {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: var(--white);
+}
+
+.fly-talks > h1 {
+  font-size: 54px;
+  font-weight: 800;
+}
+
+.fly-talks > p {
+  margin-top: 24px;
+}
+
+.fly-talks > .button {
+  margin-top: 24px;
+}
