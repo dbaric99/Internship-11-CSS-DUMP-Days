@@ -1,18 +1,33 @@
 .fly-talks {
+  max-width: var(--max-width-mobile);
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 24px;
   padding-right: 24px;
   color: var(--white);
+  position: relative;
 }
 
-.fly-talks > h1 {
+.fly-talks-about > h1 {
   font-size: 54px;
   font-weight: 800;
 }
 
-.fly-talks > p {
+.fly-talks-about > p {
   margin-top: 24px;
 }
 
-.fly-talks > .button {
+.fly-talks-about > .button {
   margin-top: 24px;
+}
+
+.fly-talks-images {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
 }
