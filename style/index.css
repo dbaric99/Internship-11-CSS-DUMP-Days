@@ -1,6 +1,8 @@
 /* definitions */
 @import "./definitions/sizes.css";
 @import "./definitions/palette.css";
+@import "./definitions/animations.css";
+@import "./definitions/buttons.css";
 
 /* utility classes */
 @import "./utility.css";
@@ -47,4 +49,15 @@
 @font-face {
   font-family: FuseV2Text-Italic;
   src: url("../assets/fonts/FuseV.2Text-BookItalic.woff2");
+}
+
+/* tag styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--black);
+  font-family: FuseV2Display-Regular;
 }
