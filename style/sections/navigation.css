@@ -127,23 +127,20 @@ nav {
   }
 }
 
-/* Large tablet */
-@media screen and (min-width: 768px) {
-  .navigation-logo {
-    display: none;
-  }
-
-  .navigation-logo-full {
-    display: block;
-  }
-}
-
 /* Desktop */
 @media screen and (min-width: 1024px) {
   nav {
     margin-top: 24px;
     display: flex;
     max-width: var(--max-width-desktop);
+  }
+
+  .navigation-logo {
+    display: none;
+  }
+
+  .navigation-logo-full {
+    display: block;
   }
 
   .navigation-hamburger > span {
