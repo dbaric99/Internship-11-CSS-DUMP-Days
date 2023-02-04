@@ -1,0 +1,40 @@
+.header-hero {
+    margin-top: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-hero__title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-hero__title {
+    font-size: 16px;
+    font-family: "FuseV2Display-Regular";
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.header-hero__subtitle {
+    font-size: 54px;
+    line-height: 68px;
+    font-family: "FuseV2Display-ExtraBold";
+    margin-bottom: 88px;
+}
+
+.header-hero__details-wrapper {
+    color: var(--white);
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+.header-hero__date {
+    
+}
+
+.header-hero__location {
+    
+}
