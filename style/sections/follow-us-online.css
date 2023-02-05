@@ -1,0 +1,46 @@
+.follow-online {
+    color: var(--white);
+    margin-top: 800px; /* TODO tweak this value to match section above */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.follow-online__hook {
+    color: var(--white);
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 122px;
+}
+
+.follow-online__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 24px;
+}
+
+.follow-online__title {
+    font-size: 54px;
+    line-height: 68px;
+    margin-bottom: 22px;
+}
+
+.follow-online__text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.follow-online__image-wrapper {
+    position: absolute;
+    right: 0%;
+    top: 60%;
+}
+
+.follow-online__image--mobile {
+
+}
+.follow-online__image--desktop {
+    display: none;
+}
