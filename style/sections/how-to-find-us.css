@@ -37,4 +37,40 @@
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
+  .how-to-find-us {
+    margin-top: 256px;
+    max-width: var(--max-width-desktop);
+  }
+
+  .how-to-find-us__map {
+    margin-left: 0;
+    width: 100%;
+    max-width: var(--max-width-desktop);
+  }
+
+  .how-to-find-us__desktop-wrapper {
+    margin-top: -600px;
+    margin-bottom: 400px;
+    padding-left: 24px;
+  }
+
+  .how-to-find-us__title {
+    margin-top: 0;
+  }
+
+  .how-to-find-us__title > h2 {
+    font-size: 122px;
+  }
+
+  .how-to-find-us__title > p {
+    font-size: 24px;
+  }
+
+  .how-to-find-us__details {
+    width: 400px;
+  }
+
+  .how-to-find-us__details > h3 {
+    font-size: 54px;
+  }
 }
