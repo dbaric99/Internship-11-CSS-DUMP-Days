@@ -48,6 +48,12 @@
     color: var(--white);
     display: flex;
     flex-direction: column;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+.header-hero__stats-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .stats__item {
