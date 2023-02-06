@@ -168,8 +168,10 @@
       <h1 class="timetable-title">Raspored</h1>
 
       <div class="timetable__date-picker">
-        <span class="timetable__date-picker__item">14. petak</span>
-        <span class="timetable__date-picker__item">15. subota</span>
+        <span class="date-picker__item main-accent-clipped-text"
+          >14. petak</span
+        >
+        <span class="date-picker__item">15. subota</span>
       </div>
 
       <div class="timetable__type-picker">
@@ -179,16 +181,71 @@
       </div>
 
       <div class="timetable__lecture-cards-wrapper">
-        <div class="timetable__lecture-cards--full">
-          <div class="lecture-card--desktop-view"></div>
-          <div class="lecture-card--mobile-view"></div>
+        <div class="timetable__lecture-card--open">
+          <div class="lecture-card--desktop-view--open"></div>
+          <div class="lecture-card--mobile-view--open">
+            <div class="lecture-card__info-strip--mobile">
+              <span>10:00 - 10:20</span>
+              <div class="lecture-card__icons--mobile">
+                <span class="lecture-card__icons__youtube"></span>
+                <span class="lecture-card__icons__live">Live</span>
+                <span class="lecture-card__icons__up-arrow"></span>
+              </div>
+            </div>
+
+            <div class="lecture-card__category--mobile">Dev</div>
+            <div class="lecture-card__title--mobile">
+              Zašto svi problemi započnu kad Miro ima viziju?
+            </div>
+            <div class="lecture-card__text--mobile">
+              Svaki software kojemu je svrha da autonomno upravlja vozilom nužno
+              mora imati mogućnost da raspoznaje objekte oko sebe i razumije što
+              se događa na cesti. Razvoj takvog sustava zahtijeva rješavanje
+              velikog broja složenih problema iz područja kompjuterskog vida. U
+              ovom predavanju ćemo govoriti o strategijama koje se koriste pri
+              rješavanju takvih problema. Poseban fokus će biti na metodama
+              dubokog učenja koje su pokazale impresivne rezultate u zadnjih
+              desetak godina.
+            </div>
+            <div class="lecture-card__speaker">
+              <img src="" alt="" class="lecture-card__speaker__img" />
+              <div class="lecture-card__speaker__info">
+                <p class="speaker__info__name">Ante Matijaca</p>
+                <p class="speaker__info__position">
+                  Creative Director / Co-founder
+                </p>
+                <img src="" alt="" class="speaker__info__company" />
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="timetable__lecture-cards--closed"></div>
-        <div class="timetable__lecture-cards--closed"></div>
-        <div class="timetable__lecture-cards--closed"></div>
-        <div class="timetable__lecture-cards--closed"></div>
-        <div class="timetable__lecture-cards--closed"></div>
+        <div class="timetable__lecture-card--closed">
+          <div class="lecture-card--desktop-view--closed"></div>
+          <div class="lecture-card--mobile-view--closed">
+            <div class="lecture-card__info-strip--mobile">
+              <span>10:00 - 10:20</span>
+              <div class="lecture-card__icons--mobile">
+                <span class="lecture-card__icons__youtube"></span>
+                <span class="lecture-card__icons__live">Live</span>
+                <span class="lecture-card__icons__down-arrow"></span>
+              </div>
+            </div>
+
+            <div class="lecture-card__category--mobile">Dev</div>
+            <div class="lecture-card__title--mobile">
+              Zašto svi problemi započnu kad Miro ima viziju?
+            </div>
+
+            <div class="lecture-card__speaker-info--closed">
+              <p class="speaker-info__name--closed">Ante Matijaca</p>
+              <p class="speaker-info__company--closed">
+                Creative Director / Co-founder
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <footer></footer>

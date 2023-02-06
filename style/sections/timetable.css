@@ -1,0 +1,31 @@
+.timetable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.timetable-title {
+    color: var(--white);
+    margin-bottom: 72px;
+}
+
+.timetable__date-picker {
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+}
+.date-picker__item {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 16px;
+}
+.date-picker__item:is(:first-child) {
+    font-family: "FuseV2Display-ExtraBold";
+    border-bottom: 1px solid;
+    border-image: var(--accent-main) 1;
+}
+.date-picker__item:not(:first-child) {
+    color: var(--gray);
+}
+
