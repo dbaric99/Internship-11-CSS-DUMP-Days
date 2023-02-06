@@ -1,0 +1,94 @@
+.speakers {
+  margin-top: 64px;
+  color: var(--white);
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width-mobile);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.speakers__title {
+  font-size: 54px;
+}
+
+.speakers__text {
+  margin-top: 32px;
+  font-size: 16px;
+}
+
+.speakers__people__wrapper {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+}
+
+.speakers__people__column {
+  width: fit-content;
+}
+
+.speakers__people__column--offset {
+  width: fit-content;
+  margin-top: 100px;
+}
+
+.speakers__people__column--large-screen {
+  display: none;
+}
+
+.speaker:not(:first-child) {
+  padding-top: 24px;
+}
+
+.speaker__name {
+  margin-top: 12px;
+}
+
+.speaker__title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #54545f;
+}
+
+.speaker__info > img {
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+  .speakers__people__column--large-screen {
+    width: fit-content;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .speakers {
+    padding-right: 0;
+    flex-direction: row;
+    max-width: var(--max-width-desktop);
+    justify-content: space-between;
+  }
+
+  .speakers__text__wrapper {
+    margin-top: 128px;
+    margin-left: 128px;
+    max-width: 512px;
+  }
+
+  .speakers__title {
+    font-size: 81px;
+  }
+
+  .speakers__people__wrapper {
+    margin-top: 0;
+  }
+
+  .speaker > img {
+    height: 312px;
+    width: 216px;
+  }
+}
