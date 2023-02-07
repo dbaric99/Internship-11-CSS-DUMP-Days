@@ -22,3 +22,9 @@
   width: 290px;
   text-align: center;
 }
+
+@media screen and (min-width: 1440px) {
+  .quote-digital-generation > h2 {
+    width: 800px;
+  }
+}
