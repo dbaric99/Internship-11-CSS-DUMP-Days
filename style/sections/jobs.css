@@ -13,10 +13,12 @@
 }
 
 .jobs-carousel {
+  margin-top: 64px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  overflow-x: auto;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 100%;
+  gap: 64px;
 }
 
 .jobs > p {
@@ -27,7 +29,7 @@
 }
 
 .job-listing--expanded:first-child {
-  margin-top: 64px;
+  margin-left: 40px;
 }
 
 .job-listing--expanded {
