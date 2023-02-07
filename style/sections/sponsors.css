@@ -1,0 +1,52 @@
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+
+.gold-sponsors-title {
+  margin-top: 256px;
+  font-size: 54px;
+  text-align: center;
+}
+
+.gold-sponsors {
+  margin-top: 150px;
+}
+
+.gold-sponsors-logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+}
+
+.gold-sponsors-about {
+  margin-top: 200px;
+}
+
+.sponsor-about {
+  padding-bottom: 49px;
+  border-bottom: 1px solid #f5f5f710;
+}
+
+.sponsor-about:not(:first-child) {
+  margin-top: 50px;
+}
+
+.sponsor-about > img {
+}
+
+.sponsor-about > h3 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.sponsor-about > p {
+  margin-top: 10px;
+  max-width: 337px;
+}
