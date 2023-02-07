@@ -69,7 +69,22 @@
   color: #e9e9ec;
 }
 
+.job-listing--expanded__more {
+  color: var(--white);
+  text-decoration: none;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.job-listing--expanded__more > a {
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .jobs-carousel-control {
+  margin-top: 128px;
   width: calc(375px - 48px);
   padding-left: 24px;
   padding-right: 24px;
