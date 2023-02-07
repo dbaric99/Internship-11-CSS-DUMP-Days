@@ -75,13 +75,69 @@
     background-color: rgba(var(--white-rgb), 0.05);
     padding: 24px;
     box-sizing: border-box;
+    margin-bottom: 24px;
 }
 .lecture-card__info-strip--mobile {
     color: var(--white);
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 26px;
 }
+
+.lecture-card__category--mobile {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--white);
+    margin-bottom: 8px;
+    padding: 2px 8px;
+    background-color: rgba(var(--white-rgb), 0.1);
+}
+.lecture-card__title--mobile {
+    font-family: "FuseV2Display-ExtraBold";
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+.lecture-card__text--mobile {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.lecture-card__speaker {
+    display: flex;
+    padding-top: 24px;
+    border-top: 1px solid rgba(var(--white-rgb), 0.1);
+    align-items: center;
+}
+.lecture-card__speaker__img {
+    height: 64px;
+    margin-right: 24px;
+}
+.lecture-card__speaker__info {
+    display: flex;
+    flex-direction: column;
+}
+.speaker__info__name {
+    font-family: "FuseV2Display-ExtraBold";
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--white);
+}
+.speaker__info__position {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+.speaker__info__company {
+    width: 86px;
+}
+
 
 /* SVG */
 .lecture-card__icons__youtube {
