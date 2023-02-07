@@ -1,0 +1,78 @@
+.jobs {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobs > h1 {
+  color: var(--white);
+  font-size: 54px;
+  width: 327px;
+}
+
+.jobs > p {
+  margin-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 327px;
+}
+
+.job-listing--expanded:first-child {
+  margin-top: 64px;
+}
+
+.job-listing--expanded {
+  width: calc(375px - 48px - 32px);
+  display: flex;
+  flex-direction: column;
+}
+
+.job-listing--expanded__header {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-listing--expanded__header__location {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.job-listing--expanded__header__location > p {
+  color: var(--white);
+  font-size: 16px;
+}
+
+.job-listing--expanded > h2 {
+  width: 175px;
+  height: 80px;
+  font-size: 36px;
+}
+
+.job-listing--expanded > p {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e9e9ec;
+}
+
+.jobs-carousel-control {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 8px;
+}
+
+.job-listing-seek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background: #0c0c0c;
+}
