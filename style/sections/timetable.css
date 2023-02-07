@@ -34,10 +34,12 @@
     color: var(--gray);
 }
 
+/* LECTURE TYPE */
 .timetable__type-picker {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 40px;
 }
 .timetable__type-picker__item {
     font-size: 16px;
@@ -53,3 +55,39 @@
     color: var(--gray);
 }
 
+/* CARDS */
+.timetable__lecture-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* OPEN CARDS */
+.lecture-card__time {
+    margin-right: 24px;
+}
+
+.lecture-card--desktop-view--open {
+    display: none;
+}
+
+.lecture-card--mobile-view--open {
+    width: 100%;
+    background-color: rgba(var(--white-rgb), 0.05);
+    padding: 24px;
+    box-sizing: border-box;
+}
+.lecture-card__info-strip--mobile {
+    color: var(--white);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/* SVG */
+.lecture-card__icons__youtube {
+    fill: var(--white);
+    margin-right: 11px;
+}
+.lecture-card__icons__up-arrow {
+    stroke: var(--white);
+}

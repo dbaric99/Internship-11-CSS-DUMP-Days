@@ -187,12 +187,25 @@
           <div class="lecture-card--desktop-view--open"></div>
           <div class="lecture-card--mobile-view--open">
             <div class="lecture-card__info-strip--mobile">
-              <span>10:00 - 10:20</span>
-              <div class="lecture-card__icons--mobile">
-                <span class="lecture-card__icons__youtube"></span>
-                <span class="lecture-card__icons__live">Live</span>
-                <span class="lecture-card__icons__up-arrow"></span>
-              </div>
+              <span>
+                <span class="lecture-card__time">10:00 - 10:20</span>
+                <svg
+                  class="lecture-card__icons__youtube"
+                  height="14"
+                  width="20"
+                >
+                  <use href="./assets/images/sprite.svg#youtube" />
+                </svg>
+                <span class="lecture-card__icons__live">
+                  <svg class="lecture-card__icons__live" height="14" width="14">
+                    <use href="./assets/images/sprite.svg#live-circle" />
+                  </svg>
+                  Live
+                </span>
+              </span>
+              <svg class="lecture-card__icons__up-arrow" height="9" width="15">
+                <use href="./assets/images/sprite.svg#arrow-up" />
+              </svg>
             </div>
 
             <div class="lecture-card__category--mobile">Dev</div>
