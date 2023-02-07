@@ -12,6 +12,13 @@
   width: 327px;
 }
 
+.jobs-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
 .jobs > p {
   margin-top: 32px;
   padding-left: 24px;
@@ -61,6 +68,9 @@
 }
 
 .jobs-carousel-control {
+  width: calc(375px - 48px);
+  padding-left: 24px;
+  padding-right: 24px;
   margin-top: 24px;
   display: flex;
   flex-direction: row;
