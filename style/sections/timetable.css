@@ -4,6 +4,9 @@
     align-items: center;
     margin-left: 28px;
     margin-right: 28px;
+    max-width: var(--max-width-mobile);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .timetable-title {
@@ -19,6 +22,7 @@
     margin-bottom: 40px;
     width: 100%;
     justify-content: space-between;
+    max-width: 317px;
 }
 .date-picker__item {
     font-size: 24px;
@@ -40,6 +44,7 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 40px;
+    max-width: 317px;
 }
 .timetable__type-picker__item {
     font-size: 16px;
@@ -61,8 +66,8 @@
     flex-direction: column;
 }
 
-/* OPEN CARDS */
-.lecture-card__time {
+/* CARDS -- MOBILE */
+.lecture-card__time--mobile {
     margin-right: 24px;
 }
 
@@ -70,12 +75,15 @@
     display: none;
 }
 
-.lecture-card--mobile-view--open {
+.lecture-card--mobile-view--open, 
+.lecture-card--mobile-view--closed {
     width: 100%;
     background-color: rgba(var(--white-rgb), 0.05);
     padding: 24px;
     box-sizing: border-box;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
 }
 .lecture-card__info-strip--mobile {
     color: var(--white);
@@ -85,8 +93,8 @@
     margin-bottom: 26px;
 }
 
-.lecture-card__category--mobile {
-    display: inline-block;
+.lecture-card__category {
+    width: fit-content;
     font-size: 14px;
     line-height: 14px;
     color: var(--white);
@@ -94,14 +102,13 @@
     padding: 2px 8px;
     background-color: rgba(var(--white-rgb), 0.1);
 }
-.lecture-card__title--mobile {
-    font-family: "FuseV2Display-ExtraBold";
+.lecture-card__title {
     font-size: 16px;
     line-height: 24px;
     color: var(--white);
     margin-bottom: 16px;
 }
-.lecture-card__text--mobile {
+.lecture-card__text {
     font-size: 16px;
     line-height: 24px;
     color: var(--white);
@@ -138,6 +145,24 @@
     width: 86px;
 }
 
+.lecture-card__speaker-info--closed {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    border-top: 1px solid rgba(var(--white-rgb), 0.1);
+}
+.speaker-info__name--closed {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+.speaker-info__company--closed {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--white);
+}
+
 
 /* SVG */
 .lecture-card__icons__youtube {
@@ -146,4 +171,82 @@
 }
 .lecture-card__icons__up-arrow {
     stroke: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+    .timetable-title {
+        font-size: 120px;
+        line-height: 122px;
+    }
+
+    .timetable__lecture-cards-wrapper {
+        width: 920px;
+    }
+    .lecture-card__main-content {
+        width: 100%;
+    }
+    .lecture-card--mobile-view--open {
+        display: none;
+    }
+    .lecture-card--desktop-view--open,
+    .lecture-card--desktop-view--closed {
+        display: flex;
+        background-color: rgba(var(--white-rgb), 0.05);
+        padding: 32px 32px 24px;
+    }
+    .lecture-card__info-strip--desktop {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        color: var(--white);
+        justify-content: space-between;
+    }
+    .lecture-card__info-strip--desktop > span {
+        display: flex;
+        align-items: center;
+    }
+    .lecture-card__category {
+        margin-bottom: 0px;
+        margin-right: 11px;
+    }
+    .lecture-card__title {
+        line-height: 16px;
+        margin-bottom: 0px;
+        margin-right: 11px;
+    }
+    .lecture-card__speaker--desktop {
+        display: flex;
+        color: var(--white);
+        align-items: center;
+        padding-top: 24px;
+        border-top: 1px solid rgba(var(--white-rgb), 0.1);
+        justify-content: space-between;
+    }
+    .lecture-card__speaker__info--desktop {
+        display: flex;
+        align-items: center;
+    }
+    .speaker__info__name--desktop {
+        font-family: "FuseV2Display-ExtraBold";
+        margin-bottom: 6px;
+    }
+    .speaker__info__company {
+        justify-self: flex-end;
+    }
+
+    .lecture-card--mobile-view--closed {
+        display: none;
+    }
+    .lecture-card--desktop-view--closed {
+        display: flex;
+    }
+
+    .lecture-card__time--desktop {
+        color: var(--white);
+        margin-right: 39px;
+        width: 13%;
+    }
+    .lecture-card__text {
+        margin-right: 24px;
+    }
 }
