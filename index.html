@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./style/index.css" />
   </head>
+
   <body>
     <nav role="navigation">
       <img
@@ -35,12 +36,24 @@
         <span></span>
         <span></span>
         <ul class="navigation-menu frosted-bg">
-          <a href="#"><li class="navigation-menu__item">Konferencija</li></a>
-          <a href="#"><li class="navigation-menu__item">Raspored</li></a>
-          <a href="#"><li class="navigation-menu__item">Speakeri</li></a>
-          <a href="#"><li class="navigation-menu__item">Sponzori</li></a>
-          <a href="#"><li class="navigation-menu__item">Kontakt</li></a>
-          <a href="#" class="button"><li class="button-text">Prijavi se</li></a>
+          <a href="#">
+            <li class="navigation-menu__item">Konferencija</li>
+          </a>
+          <a href="#">
+            <li class="navigation-menu__item">Raspored</li>
+          </a>
+          <a href="#">
+            <li class="navigation-menu__item">Speakeri</li>
+          </a>
+          <a href="#">
+            <li class="navigation-menu__item">Sponzori</li>
+          </a>
+          <a href="#">
+            <li class="navigation-menu__item">Kontakt</li>
+          </a>
+          <a href="#" class="button">
+            <li class="button-text">Prijavi se</li>
+          </a>
         </ul>
       </div>
     </nav>
@@ -161,6 +174,582 @@
         </div>
         <div class="follow-online__image-wrapper">
           <div class="follow-online__image-holder"></div>
+        </div>
+      </div>
+    </section>
+    <section class="timetable">
+      <h1 class="timetable-title">Raspored</h1>
+
+      <div class="timetable__date-picker">
+        <span class="date-picker__item main-accent-clipped-text"
+          >14. petak</span
+        >
+        <span class="date-picker__item">15. subota</span>
+      </div>
+
+      <div class="timetable__type-picker">
+        <span class="timetable__type-picker__item">Predavanja</span>
+        <p class="timetable__type-picker__divider">|</p>
+        <span class="timetable__type-picker__item">Radionice</span>
+        <p class="timetable__type-picker__divider">|</p>
+        <span class="timetable__type-picker__item">Campfire talks</span>
+      </div>
+
+      <div class="timetable__lecture-cards-wrapper">
+        <div class="timetable__lecture-card--open">
+          <!-- desktop--open -->
+          <div class="lecture-card--desktop-view--open">
+            <div class="lecture-card__time--desktop">10:00 - 10:20</div>
+            <div class="lecture-card__main-content">
+              <div class="lecture-card__info-strip--desktop">
+                <span>
+                  <div class="lecture-card__category">Dev</div>
+                  <h1 class="lecture-card__title">
+                    Zašto svi problemi započnu kad Miro ima viziju?
+                  </h1>
+                  <svg
+                    class="lecture-card__icons__youtube"
+                    height="14"
+                    width="20"
+                  >
+                    <use href="./assets/images/sprite.svg#youtube" />
+                  </svg>
+                  <span class="lecture-card__icons__live">
+                    <svg
+                      class="lecture-card__icons__live"
+                      height="14"
+                      width="14"
+                    >
+                      <use href="./assets/images/sprite.svg#live-circle" />
+                    </svg>
+                    Live
+                  </span>
+                </span>
+                <svg
+                  class="lecture-card__icons__up-arrow"
+                  height="9"
+                  width="15"
+                >
+                  <use href="./assets/images/sprite.svg#arrow-up" />
+                </svg>
+              </div>
+
+              <div class="lecture-card__text">
+                Svaki software kojemu je svrha da autonomno upravlja vozilom
+                nužno mora imati mogućnost da raspoznaje objekte oko sebe i
+                razumije što se događa na cesti. Razvoj takvog sustava zahtijeva
+                rješavanje velikog broja složenih problema iz područja
+                kompjuterskog vida. U ovom predavanju ćemo govoriti o
+                strategijama koje se koriste pri rješavanju takvih problema.
+                Poseban fokus će biti na metodama dubokog učenja koje su
+                pokazale impresivne rezultate u zadnjih desetak godina.
+              </div>
+
+              <div class="lecture-card__speaker--desktop">
+                <div class="lecture-card__speaker__info--desktop">
+                  <img
+                    src="./assets/images/bald-guy.png"
+                    alt=""
+                    class="lecture-card__speaker__img"
+                  />
+                  <span>
+                    <p class="speaker__info__name--desktop">Ante Matijaca</p>
+                    <p class="speaker__info__position--desktop">
+                      Creative Director / Co-founder
+                    </p>
+                  </span>
+                </div>
+                <img
+                  src="./assets/images/profico.png"
+                  alt=""
+                  class="speaker__info__company"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- mobile--open -->
+          <div class="lecture-card--mobile-view--open">
+            <div class="lecture-card__info-strip--mobile">
+              <span>
+                <span class="lecture-card__time--mobile">10:00 - 10:20</span>
+                <svg
+                  class="lecture-card__icons__youtube"
+                  height="14"
+                  width="20"
+                >
+                  <use href="./assets/images/sprite.svg#youtube" />
+                </svg>
+                <span class="lecture-card__icons__live">
+                  <svg class="lecture-card__icons__live" height="14" width="14">
+                    <use href="./assets/images/sprite.svg#live-circle" />
+                  </svg>
+                  Live
+                </span>
+              </span>
+              <svg class="lecture-card__icons__up-arrow" height="9" width="15">
+                <use href="./assets/images/sprite.svg#arrow-up" />
+              </svg>
+            </div>
+
+            <div class="lecture-card__category">Dev</div>
+            <h1 class="lecture-card__title">
+              Zašto svi problemi započnu kad Miro ima viziju?
+            </h1>
+            <div class="lecture-card__text">
+              Svaki software kojemu je svrha da autonomno upravlja vozilom nužno
+              mora imati mogućnost da raspoznaje objekte oko sebe i razumije što
+              se događa na cesti. Razvoj takvog sustava zahtijeva rješavanje
+              velikog broja složenih problema iz područja kompjuterskog vida. U
+              ovom predavanju ćemo govoriti o strategijama koje se koriste pri
+              rješavanju takvih problema. Poseban fokus će biti na metodama
+              dubokog učenja koje su pokazale impresivne rezultate u zadnjih
+              desetak godina.
+            </div>
+            <div class="lecture-card__speaker">
+              <img
+                src="./assets/images/bald-guy.png"
+                alt=""
+                class="lecture-card__speaker__img"
+              />
+              <div class="lecture-card__speaker__info">
+                <p class="speaker__info__name">Ante Matijaca</p>
+                <p class="speaker__info__position">
+                  Creative Director / Co-founder
+                </p>
+                <img
+                  src="./assets/images/profico.png"
+                  alt=""
+                  class="speaker__info__company"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timetable__lecture-card--closed">
+          <!-- desktop--closed -->
+          <div class="lecture-card--desktop-view--closed">
+            <div class="lecture-card__time--desktop">10:00 - 10:20</div>
+            <div class="lecture-card__main-content">
+              <div class="lecture-card__info-strip--desktop--closed">
+                <span>
+                  <div class="lecture-card__category">Dev</div>
+                  <h1 class="lecture-card__title">
+                    Zašto svi problemi započnu kad Miro ima viziju?
+                  </h1>
+                  <svg
+                    class="lecture-card__icons__youtube"
+                    height="14"
+                    width="20"
+                  >
+                    <use href="./assets/images/sprite.svg#youtube" />
+                  </svg>
+                  <span class="lecture-card__icons__live">
+                    <svg
+                      class="lecture-card__icons__live"
+                      height="14"
+                      width="14"
+                    >
+                      <use href="./assets/images/sprite.svg#live-circle" />
+                    </svg>
+                    Live
+                  </span>
+                </span>
+                <svg
+                  class="lecture-card__icons__down-arrow"
+                  height="9"
+                  width="15"
+                >
+                  <use href="./assets/images/sprite.svg#arrow-up" />
+                </svg>
+              </div>
+              <div class="lecture-card__speaker--desktop--closed">
+                <span>Ante Matijaca</span>
+                <span>•</span>
+                <span>Creative Director / Co-founder</span>
+              </div>
+            </div>
+          </div>
+          <div class="lecture-card--desktop-view--closed">
+            <div class="lecture-card__time--desktop">10:00 - 10:20</div>
+            <div class="lecture-card__main-content">
+              <div class="lecture-card__info-strip--desktop--closed">
+                <span>
+                  <div class="lecture-card__category">Dev</div>
+                  <h1 class="lecture-card__title">
+                    Zašto svi problemi započnu kad Miro ima viziju?
+                  </h1>
+                  <svg
+                    class="lecture-card__icons__youtube"
+                    height="14"
+                    width="20"
+                  >
+                    <use href="./assets/images/sprite.svg#youtube" />
+                  </svg>
+                  <span class="lecture-card__icons__live">
+                    <svg
+                      class="lecture-card__icons__live"
+                      height="14"
+                      width="14"
+                    >
+                      <use href="./assets/images/sprite.svg#live-circle" />
+                    </svg>
+                    Live
+                  </span>
+                </span>
+                <svg
+                  class="lecture-card__icons__down-arrow"
+                  height="9"
+                  width="15"
+                >
+                  <use href="./assets/images/sprite.svg#arrow-up" />
+                </svg>
+              </div>
+              <div class="lecture-card__speaker--desktop--closed">
+                <span>Ante Matijaca</span>
+                <span>•</span>
+                <span>Creative Director / Co-founder</span>
+              </div>
+            </div>
+          </div>
+          <div class="lecture-card--desktop-view--closed">
+            <div class="lecture-card__time--desktop">10:00 - 10:20</div>
+            <div class="lecture-card__main-content">
+              <div class="lecture-card__info-strip--desktop--closed">
+                <span>
+                  <div class="lecture-card__category">Dev</div>
+                  <h1 class="lecture-card__title">
+                    Zašto svi problemi započnu kad Miro ima viziju?
+                  </h1>
+                  <svg
+                    class="lecture-card__icons__youtube"
+                    height="14"
+                    width="20"
+                  >
+                    <use href="./assets/images/sprite.svg#youtube" />
+                  </svg>
+                  <span class="lecture-card__icons__live">
+                    <svg
+                      class="lecture-card__icons__live"
+                      height="14"
+                      width="14"
+                    >
+                      <use href="./assets/images/sprite.svg#live-circle" />
+                    </svg>
+                    Live
+                  </span>
+                </span>
+                <svg
+                  class="lecture-card__icons__down-arrow"
+                  height="9"
+                  width="15"
+                >
+                  <use href="./assets/images/sprite.svg#arrow-up" />
+                </svg>
+              </div>
+              <div class="lecture-card__speaker--desktop--closed">
+                <span>Ante Matijaca</span>
+                <span>•</span>
+                <span>Creative Director / Co-founder</span>
+              </div>
+            </div>
+          </div>
+          <div class="lecture-card--desktop-view--closed">
+            <div class="lecture-card__time--desktop">10:00 - 10:20</div>
+            <div class="lecture-card__main-content">
+              <div class="lecture-card__info-strip--desktop--closed">
+                <span>
+                  <div class="lecture-card__category">Dev</div>
+                  <h1 class="lecture-card__title">
+                    Zašto svi problemi započnu kad Miro ima viziju?
+                  </h1>
+                  <svg
+                    class="lecture-card__icons__youtube"
+                    height="14"
+                    width="20"
+                  >
+                    <use href="./assets/images/sprite.svg#youtube" />
+                  </svg>
+                  <span class="lecture-card__icons__live">
+                    <svg
+                      class="lecture-card__icons__live"
+                      height="14"
+                      width="14"
+                    >
+                      <use href="./assets/images/sprite.svg#live-circle" />
+                    </svg>
+                    Live
+                  </span>
+                </span>
+                <svg
+                  class="lecture-card__icons__down-arrow"
+                  height="9"
+                  width="15"
+                >
+                  <use href="./assets/images/sprite.svg#arrow-up" />
+                </svg>
+              </div>
+              <div class="lecture-card__speaker--desktop--closed">
+                <span>Ante Matijaca</span>
+                <span>•</span>
+                <span>Creative Director / Co-founder</span>
+              </div>
+            </div>
+          </div>
+          <div class="lecture-card--desktop-view--closed">
+            <div class="lecture-card__time--desktop">10:00 - 10:20</div>
+            <div class="lecture-card__main-content">
+              <div class="lecture-card__info-strip--desktop--closed">
+                <span>
+                  <div class="lecture-card__category">Dev</div>
+                  <h1 class="lecture-card__title">
+                    Zašto svi problemi započnu kad Miro ima viziju?
+                  </h1>
+                  <svg
+                    class="lecture-card__icons__youtube"
+                    height="14"
+                    width="20"
+                  >
+                    <use href="./assets/images/sprite.svg#youtube" />
+                  </svg>
+                  <span class="lecture-card__icons__live">
+                    <svg
+                      class="lecture-card__icons__live"
+                      height="14"
+                      width="14"
+                    >
+                      <use href="./assets/images/sprite.svg#live-circle" />
+                    </svg>
+                    Live
+                  </span>
+                </span>
+                <svg
+                  class="lecture-card__icons__down-arrow"
+                  height="9"
+                  width="15"
+                >
+                  <use href="./assets/images/sprite.svg#arrow-up" />
+                </svg>
+              </div>
+              <div class="lecture-card__speaker--desktop--closed">
+                <span>Ante Matijaca</span>
+                <span>•</span>
+                <span>Creative Director / Co-founder</span>
+              </div>
+            </div>
+          </div>
+          <div class="lecture-card--desktop-view--closed">
+            <div class="lecture-card__time--desktop">10:00 - 10:20</div>
+            <div class="lecture-card__main-content">
+              <div class="lecture-card__info-strip--desktop--closed">
+                <span>
+                  <div class="lecture-card__category">Dev</div>
+                  <h1 class="lecture-card__title">
+                    Zašto svi problemi započnu kad Miro ima viziju?
+                  </h1>
+                  <svg
+                    class="lecture-card__icons__youtube"
+                    height="14"
+                    width="20"
+                  >
+                    <use href="./assets/images/sprite.svg#youtube" />
+                  </svg>
+                  <span class="lecture-card__icons__live">
+                    <svg
+                      class="lecture-card__icons__live"
+                      height="14"
+                      width="14"
+                    >
+                      <use href="./assets/images/sprite.svg#live-circle" />
+                    </svg>
+                    Live
+                  </span>
+                </span>
+                <svg
+                  class="lecture-card__icons__down-arrow"
+                  height="9"
+                  width="15"
+                >
+                  <use href="./assets/images/sprite.svg#arrow-up" />
+                </svg>
+              </div>
+              <div class="lecture-card__speaker--desktop--closed">
+                <span>Ante Matijaca</span>
+                <span>•</span>
+                <span>Creative Director / Co-founder</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- mobile--closed -->
+          <div class="lecture-card--mobile-view--closed">
+            <div class="lecture-card__info-strip--mobile">
+              <span>
+                <span class="lecture-card__time--mobile">10:00 - 10:20</span>
+                <svg
+                  class="lecture-card__icons__youtube"
+                  height="14"
+                  width="20"
+                >
+                  <use href="./assets/images/sprite.svg#youtube" />
+                </svg>
+                <span class="lecture-card__icons__live">
+                  <svg class="lecture-card__icons__live" height="14" width="14">
+                    <use href="./assets/images/sprite.svg#live-circle" />
+                  </svg>
+                  Live
+                </span>
+              </span>
+              <svg
+                class="lecture-card__icons__down-arrow"
+                height="9"
+                width="15"
+              >
+                <use href="./assets/images/sprite.svg#arrow-up" />
+              </svg>
+            </div>
+
+            <div class="lecture-card__category">Dev</div>
+            <div class="lecture-card__title">
+              Zašto svi problemi započnu kad Miro ima viziju?
+            </div>
+
+            <div class="lecture-card__speaker-info--closed">
+              <p class="speaker-info__name--closed">Ante Matijaca</p>
+              <p class="speaker-info__company--closed">
+                Creative Director / Co-founder
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lecture-card--mobile-view--closed">
+          <div class="lecture-card__info-strip--mobile">
+            <span>
+              <span class="lecture-card__time--mobile">10:00 - 10:20</span>
+              <svg class="lecture-card__icons__youtube" height="14" width="20">
+                <use href="./assets/images/sprite.svg#youtube" />
+              </svg>
+              <span class="lecture-card__icons__live">
+                <svg class="lecture-card__icons__live" height="14" width="14">
+                  <use href="./assets/images/sprite.svg#live-circle" />
+                </svg>
+                Live
+              </span>
+            </span>
+            <svg class="lecture-card__icons__down-arrow" height="9" width="15">
+              <use href="./assets/images/sprite.svg#arrow-up" />
+            </svg>
+          </div>
+
+          <div class="lecture-card__category">Dev</div>
+          <div class="lecture-card__title">
+            Zašto svi problemi započnu kad Miro ima viziju?
+          </div>
+
+          <div class="lecture-card__speaker-info--closed">
+            <p class="speaker-info__name--closed">Ante Matijaca</p>
+            <p class="speaker-info__company--closed">
+              Creative Director / Co-founder
+            </p>
+          </div>
+        </div>
+
+        <div class="lecture-card--mobile-view--closed">
+          <div class="lecture-card__info-strip--mobile">
+            <span>
+              <span class="lecture-card__time--mobile">10:00 - 10:20</span>
+              <svg class="lecture-card__icons__youtube" height="14" width="20">
+                <use href="./assets/images/sprite.svg#youtube" />
+              </svg>
+              <span class="lecture-card__icons__live">
+                <svg class="lecture-card__icons__live" height="14" width="14">
+                  <use href="./assets/images/sprite.svg#live-circle" />
+                </svg>
+                Live
+              </span>
+            </span>
+            <svg class="lecture-card__icons__down-arrow" height="9" width="15">
+              <use href="./assets/images/sprite.svg#arrow-up" />
+            </svg>
+          </div>
+
+          <div class="lecture-card__category">Dev</div>
+          <div class="lecture-card__title">
+            Zašto svi problemi započnu kad Miro ima viziju?
+          </div>
+
+          <div class="lecture-card__speaker-info--closed">
+            <p class="speaker-info__name--closed">Ante Matijaca</p>
+            <p class="speaker-info__company--closed">
+              Creative Director / Co-founder
+            </p>
+          </div>
+        </div>
+
+        <div class="lecture-card--mobile-view--closed">
+          <div class="lecture-card__info-strip--mobile">
+            <span>
+              <span class="lecture-card__time--mobile">10:00 - 10:20</span>
+              <svg class="lecture-card__icons__youtube" height="14" width="20">
+                <use href="./assets/images/sprite.svg#youtube" />
+              </svg>
+              <span class="lecture-card__icons__live">
+                <svg class="lecture-card__icons__live" height="14" width="14">
+                  <use href="./assets/images/sprite.svg#live-circle" />
+                </svg>
+                Live
+              </span>
+            </span>
+            <svg class="lecture-card__icons__down-arrow" height="9" width="15">
+              <use href="./assets/images/sprite.svg#arrow-up" />
+            </svg>
+          </div>
+
+          <div class="lecture-card__category">Dev</div>
+          <div class="lecture-card__title">
+            Zašto svi problemi započnu kad Miro ima viziju?
+          </div>
+
+          <div class="lecture-card__speaker-info--closed">
+            <p class="speaker-info__name--closed">Ante Matijaca</p>
+            <p class="speaker-info__company--closed">
+              Creative Director / Co-founder
+            </p>
+          </div>
+        </div>
+
+        <div class="lecture-card--mobile-view--closed">
+          <div class="lecture-card__info-strip--mobile">
+            <span>
+              <span class="lecture-card__time--mobile">10:00 - 10:20</span>
+              <svg class="lecture-card__icons__youtube" height="14" width="20">
+                <use href="./assets/images/sprite.svg#youtube" />
+              </svg>
+              <span class="lecture-card__icons__live">
+                <svg class="lecture-card__icons__live" height="14" width="14">
+                  <use href="./assets/images/sprite.svg#live-circle" />
+                </svg>
+                Live
+              </span>
+            </span>
+            <svg class="lecture-card__icons__down-arrow" height="9" width="15">
+              <use href="./assets/images/sprite.svg#arrow-up" />
+            </svg>
+          </div>
+
+          <div class="lecture-card__category">Dev</div>
+          <div class="lecture-card__title">
+            Zašto svi problemi započnu kad Miro ima viziju?
+          </div>
+
+          <div class="lecture-card__speaker-info--closed">
+            <p class="speaker-info__name--closed">Ante Matijaca</p>
+            <p class="speaker-info__company--closed">
+              Creative Director / Co-founder
+            </p>
+          </div>
         </div>
       </div>
     </section>
