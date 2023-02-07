@@ -54,6 +54,33 @@
   margin-top: 10px;
 }
 
+.other-sponsors {
+}
+
+.other-sponsors-tier {
+  margin-top: 256px;
+}
+
+.other-sponsors-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.other-sponsors-tier-group {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.other-sponsors-group {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 74px;
+  width: fit-content;
+}
+
 @media screen and (min-width: 1024px) {
   .gold-sponsors-logos {
     flex-direction: row;
