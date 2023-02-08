@@ -42,8 +42,11 @@
     line-height: 16px;
 }
 
-.application__content__section {
+.application__content__section:not(:last-child) {
     margin-bottom: 104px;
+}
+.application__content__section:is(:last-child) {
+    margin-bottom: 156px;
 }
 
 .application__content__section__title {
