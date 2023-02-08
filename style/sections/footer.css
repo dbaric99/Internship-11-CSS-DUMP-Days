@@ -9,10 +9,6 @@ footer {
   margin-bottom: 64px;
 }
 
-.footer_social > svg {
-  stroke: var(--white);
-}
-
 footer > a {
   text-decoration: none;
   color: var(--white);
