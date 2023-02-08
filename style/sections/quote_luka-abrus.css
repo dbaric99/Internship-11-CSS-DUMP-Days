@@ -42,8 +42,7 @@
         background: url(../../assets/images/luka-abros-desktop.png) no-repeat 0 0;
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: center;
-        background-size: 100%;
+        justify-content: center;  
     }
     .luka-abrus__content {
         align-items: flex-start;
@@ -55,5 +54,11 @@
     .luka-abrus__content__text {
         padding: 0px;
         text-align: left;
+    }
+}
+
+@media screen and (min-width: 1425px) {
+    .quote__luka-abrus {
+        background-size: 100%;
     }
 }
