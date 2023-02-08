@@ -1,0 +1,13 @@
+footer {
+  margin-top: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  gap: 32px;
+}
+
+.footer_social > svg {
+  stroke: var(--white);
+}
