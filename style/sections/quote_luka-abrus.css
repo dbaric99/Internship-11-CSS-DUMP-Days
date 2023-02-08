@@ -40,5 +40,20 @@
 @media screen and (min-width: 1024px) {
     .quote__luka-abrus {
         background: url(../../assets/images/luka-abros-desktop.png) no-repeat 0 0;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        background-size: 100%;
+    }
+    .luka-abrus__content {
+        align-items: flex-start;
+    }
+    .luka-abrus__content__title {
+        font-size: 81px;
+        line-height: 88px;
+    }
+    .luka-abrus__content__text {
+        padding: 0px;
+        text-align: left;
     }
 }
