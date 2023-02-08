@@ -6,8 +6,15 @@ footer {
   align-items: center;
   color: var(--white);
   gap: 32px;
+  margin-bottom: 64px;
 }
 
 .footer_social > svg {
   stroke: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    flex-direction: row-reverse;
+  }
 }
