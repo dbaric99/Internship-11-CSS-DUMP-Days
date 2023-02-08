@@ -77,6 +77,9 @@
     margin-top: 128px;
     margin-left: 128px;
     max-width: 512px;
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
   }
 
   .speakers__title {
