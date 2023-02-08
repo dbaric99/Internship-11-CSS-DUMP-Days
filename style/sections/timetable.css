@@ -1,0 +1,283 @@
+.timetable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 28px;
+    margin-right: 28px;
+    max-width: var(--max-width-mobile);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 71px;
+}
+
+.timetable-title {
+    color: var(--white);
+    margin-bottom: 72px;
+    font-size: 54px;
+    line-height: 68px;
+}
+
+.timetable__date-picker {
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+    margin-bottom: 40px;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 317px;
+}
+.date-picker__item {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 16px;
+}
+.date-picker__item:is(:first-child) {
+    font-family: "FuseV2Display-ExtraBold";
+    border-bottom: 1px solid;
+    border-image: var(--accent-main) 1;
+}
+.date-picker__item:not(:first-child) {
+    color: var(--gray);
+}
+
+/* LECTURE TYPE */
+.timetable__type-picker {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    max-width: 317px;
+}
+.timetable__type-picker__item {
+    font-size: 16px;
+    line-height: 16px;
+}
+.timetable__type-picker__item:is(:first-child) {
+    color: var(--white);
+}
+.timetable__type-picker__item:not(:first-child) {
+    color: var(--gray);
+}
+.timetable__type-picker__divider {
+    color: var(--gray);
+}
+
+/* CARDS */
+.timetable__lecture-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CARDS -- MOBILE */
+.lecture-card__time--mobile {
+    margin-right: 24px;
+}
+
+.lecture-card--desktop-view--open {
+    display: none;
+}
+
+.lecture-card--mobile-view--open, 
+.lecture-card--mobile-view--closed {
+    width: 100%;
+    background-color: rgba(var(--white-rgb), 0.05);
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.lecture-card__info-strip--mobile {
+    color: var(--white);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.lecture-card__category {
+    width: fit-content;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--white);
+    margin-bottom: 8px;
+    padding: 2px 8px;
+    background-color: rgba(var(--white-rgb), 0.1);
+}
+.lecture-card__title {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+.lecture-card__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.lecture-card__speaker {
+    display: flex;
+    padding-top: 24px;
+    border-top: 1px solid rgba(var(--white-rgb), 0.1);
+    align-items: center;
+}
+.lecture-card__speaker__img {
+    height: 64px;
+    margin-right: 24px;
+}
+.lecture-card__speaker__info {
+    display: flex;
+    flex-direction: column;
+}
+.speaker__info__name {
+    font-family: "FuseV2Display-ExtraBold";
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--white);
+}
+.speaker__info__position {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+.speaker__info__company {
+    width: 86px;
+}
+
+.lecture-card__speaker-info--closed {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    border-top: 1px solid rgba(var(--white-rgb), 0.1);
+}
+.speaker-info__name--closed {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+.speaker-info__company--closed {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--white);
+}
+.lecture-card--desktop-view--closed {
+    display: none;
+}
+
+
+/* SVG */
+.lecture-card__icons__youtube {
+    fill: var(--white);
+    margin-right: 11px;
+}
+.lecture-card__icons__up-arrow,
+.lecture-card__icons__down-arrow {
+    stroke: var(--white);
+}
+.lecture-card__icons__down-arrow {
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 1024px) {
+    .timetable {
+        margin-bottom: 328px;
+    }
+    .timetable-title {
+        font-size: 120px;
+        line-height: 122px;
+    }
+    .timetable__lecture-card--open {
+        margin-bottom: 16px;
+    }
+    .timetable__lecture-card--closed {
+        margin-bottom: 16px;
+    }
+    .timetable__lecture-cards-wrapper {
+        width: 920px;
+    }
+    .lecture-card__main-content {
+        width: 100%;
+    }
+    .lecture-card--mobile-view--open {
+        display: none;
+    }
+    .lecture-card--desktop-view--open,
+    .lecture-card--desktop-view--closed {
+        display: flex;
+        background-color: rgba(var(--white-rgb), 0.05);
+        padding: 32px 32px 24px;
+    }
+    .lecture-card__info-strip--desktop,
+    .lecture-card__info-strip--desktop--closed {
+        display: flex;
+        align-items: center;
+        color: var(--white);
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    .lecture-card__info-strip--desktop {
+        margin-bottom: 25px;
+    }
+    .lecture-card__info-strip--desktop--closed {
+        margin-bottom: 9px;
+    }
+    .lecture-card__info-strip--desktop > span,
+    .lecture-card__info-strip--desktop--closed > span {
+        display: flex;
+        align-items: center;
+    }
+    .lecture-card__category {
+        margin-bottom: 0px;
+        margin-right: 11px;
+    }
+    .lecture-card__title {
+        line-height: 16px;
+        margin-bottom: 0px;
+        margin-right: 11px;
+    }
+    .lecture-card__speaker--desktop {
+        display: flex;
+        color: var(--white);
+        align-items: center;
+        padding-top: 24px;
+        border-top: 1px solid rgba(var(--white-rgb), 0.1);
+        justify-content: space-between;
+    }
+    .lecture-card__speaker__info--desktop {
+        display: flex;
+        align-items: center;
+    }
+    .speaker__info__name--desktop {
+        font-family: "FuseV2Display-ExtraBold";
+        margin-bottom: 6px;
+    }
+    .speaker__info__company {
+        justify-self: flex-end;
+    }
+
+    .lecture-card--mobile-view--closed {
+        display: none;
+    }
+    .lecture-card--desktop-view--closed {
+        margin-bottom: 16px;
+    }
+    .lecture-card--desktop-view--open {
+        display: flex;
+    }
+
+    .lecture-card__time--desktop {
+        color: var(--white);
+        margin-right: 39px;
+        width: 13%;
+    }
+    .lecture-card__text {
+        margin-right: 24px;
+    }
+
+    .lecture-card__speaker--desktop--closed {
+        color: var(--white);
+    }
+}
