@@ -1,0 +1,44 @@
+.quote__luka-abrus {
+    color: var(--white);
+    background: url(../../assets/images/luka-abrus-mobile.png) no-repeat 0 0;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 74px;
+    padding-bottom: 20px;
+    max-width: var(--max-mobile-width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.luka-abrus__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.luka-abrus__content__title {
+    font-size: 54px;
+    line-height: 68px;
+    margin-bottom: 24px;
+}
+
+.luka-abrus__content__text {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.luka-abrus__five-logo {
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .quote__luka-abrus {
+        background: url(../../assets/images/luka-abros-desktop.png) no-repeat 0 0;
+    }
+}
