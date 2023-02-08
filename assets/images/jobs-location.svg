@@ -1,0 +1,5 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 17.5V19.5833" stroke="#F5F5F7" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.4167 5.83329C15.4167 9.58329 10 14.1666 10 17.5C10 14.1666 4.58337 9.58329 4.58337 5.83329C4.58337 2.08329 6.66671 0.416626 10 0.416626C13.3334 0.416626 15.4167 2.08329 15.4167 5.83329Z" stroke="#F5F5F7" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="10" cy="5.83329" rx="2.91667" ry="2.91667" stroke="#F5F5F7" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
